@@ -1,0 +1,21 @@
+1.0 Functional description：
+This is an single window "Fotag" application supporting following features.
+    Load image from computer using file chooser.
+    Display image thumbnails in a grid or list layout and could switch between two layout button(The button representing
+        current layout selection is depressed).
+    Enlarge image in a separate window after clicking the image.
+    Exit with the lists of image saved and the same images are automatically shown after relaunching.
+    Support rating images and clear their rating as well.
+    Support searching by filter of rated value and showing images that has at least rate value of the select value.
+
+2.0 Resize and Layout：
+    The number of columns of grid layout will shrinks or grows based on the available space when resizing the window.
+    List layout remain unchanged and can't resize the window smaller than the width of the column.
+
+3.0 Program architecture：
+    MVC
+    Observer
+
+4.0 development environment:
+    Run "./gradlew run" in project root directory to launch program.
+    Need Java 10. Run on Windows. Should support Windows, Mac OS, Linux.
